@@ -51,9 +51,9 @@
         {
             $id=$geetika["id"];
             $nm=$geetika["name"];
-            $brn=$geetika["branch"];
+            $brnch=$geetika["branch"];
             $rll=$geetika["roll"];
-            $adrs=$geetika["message"];
+            $msg=$geetika["message"];
              echo "<tr>";
              echo "<td>";
              echo $id;
