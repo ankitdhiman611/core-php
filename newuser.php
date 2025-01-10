@@ -1,4 +1,5 @@
 <?php
+
 include "config.php";
 if(!empty($_POST['name']) and !empty($_POST['email']) and !empty($_POST['password']) and !empty($_POST['gender']) and !empty($_POST['state']) and !empty($_POST['address']))
 {
@@ -14,6 +15,7 @@ if(!empty($_POST['name']) and !empty($_POST['email']) and !empty($_POST['passwor
     while($rows=mysqli_fetch_array($z1))
     {
         $flag=1;
+    
         break;
     }
     if($flag==0)
